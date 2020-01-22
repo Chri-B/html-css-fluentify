@@ -146,11 +146,12 @@ header span {
 
 .bianco {
     background-color: white;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .riga-bianca {
     height: 500px;
+    margin-bottom: 20px;
 }
 
 .cards {
@@ -172,16 +173,19 @@ header span {
     height: 50px;
     font-size: 23px;
     color: #7fb802;
-    margin: 60px 0 40px;
+    margin-top: 60px;
 }
 
 .content p {
     color: #999999;
     font-size: 15px;
     line-height: 25px;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .content hr {
+    color: #d8d8d8;
     width: 32px;
+    display: inline-block;
+    margin: 30px 0;
 }
